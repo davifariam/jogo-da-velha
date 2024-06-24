@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(144, 144, 224) 1px 1px;
+}
+
+.gradient {
+    background: linear-gradient(to top, rgba(238, 240, 242, 1), rgba(0, 0, 0, 0.1));
+}
+
+
+.square {
+    width: 100px;
+    height: 100px;
+    /* background: beige; */
+    border: 1px solid rgb(104, 110, 218);
+    display: inline-block;
+}
+
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.resetButton {
+    background-color: rgba(60, 126, 225, 1);
+    border: 1px solid rgba(60, 126, 225, 1);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.resetButton:active {
+    background-color: white;
+    border: 1px solid rgba(60, 126, 225, 1);
+    color: rgba(60, 126, 225, 1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+}
